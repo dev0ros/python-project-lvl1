@@ -1,4 +1,5 @@
 import prompt
+from brain_games.printing_templates import *
 from brain_games.welcome import *
 from random import randint
 
@@ -24,17 +25,14 @@ def main():
         user_answer = enter_answer()
         computer_answer = check_even(random_number)
         if computer_answer == user_answer:
-            print('Correct!')
+            print_ok()
         else:
-            first_part_string = f"'{user_answer}' is wrong answer ;("
-            second_part_string = f"Correct answer was '{computer_answer}'"
-            print(f'{first_part_string} {second_part_string}')
-            print(f"Let's try again, {name_user}")
+            print_unwin(user_answer, computer_answer, name_user)
             game_status = False
         attempt_counter -= 1
 
     if game_status:
-        print(f'Congratulations, {name_user}!')
+        congratulate(name_user)
 
 
 if __name__ == '__main__':
