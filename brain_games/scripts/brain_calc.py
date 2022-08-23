@@ -1,6 +1,7 @@
 import prompt
 from random import choice
 from random import randint
+from brain_games.printing_templates import *
 from brain_games.welcome import *
 
 def choice_operator():
@@ -39,9 +40,14 @@ def main():
         print(f'Question: {our_expression}')
         user_answer = prompt.integer('Your answer: ')
         if is_equal(computer_answer, user_answer):
-            print('Correct!')
+            print_ok()
         else:
-            
+            print_unwin(user_answer, computer_answer, name_user)
+            game_status = False
+        attempt_counter -= 1
+    
+    if game_status:
+        congratulate(name_user)
         
 
 if __name__ == '__main__':
