@@ -4,4 +4,4 @@
 
 
 brain-calc game:
-<script id="asciicast-FpjcjQgxtvzRr9VXb6BbhkeNs" src="https://asciinema.org/a/FpjcjQgxtvzRr9VXb6BbhkeNs.js" async></script>
+(<script id="asciicast-FpjcjQgxtvzRr9VXb6BbhkeNs" src="https://asciinema.org/a/FpjcjQgxtvzRr9VXb6BbhkeNs.js" async></script>)
