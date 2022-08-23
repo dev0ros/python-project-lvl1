@@ -1,4 +1,5 @@
 import prompt
+from brain_games.welcome import *
 from random import randint
 
 
@@ -8,15 +9,6 @@ def check_even(number):
 
 def enter_answer():
     return prompt.string('Your answer: ').lower().strip()
-
-
-def enter_username():
-    name_user = prompt.string('May I have your name? ')
-    return name_user
-
-
-def welcome_user(name):
-    print(f'Hello, {name}')
 
 
 def main():
