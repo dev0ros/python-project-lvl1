@@ -1,6 +1,6 @@
 import prompt
-from brain_games.printing_templates import *
-from brain_games.welcome import *
+from brain_games.printing_templates import print_ok, print_unwin, congratulate
+from brain_games.welcome import enter_username, welcome_user
 from random import randint
 
 
