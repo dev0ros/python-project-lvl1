@@ -4,4 +4,4 @@
 
 
 ## brain-calc game
-https://asciinema.org/a/FpjcjQgxtvzRr9VXb6BbhkeNs
+[![asciicast](https://asciinema.org/a/FpjcjQgxtvzRr9VXb6BbhkeNs.svg)](https://asciinema.org/a/FpjcjQgxtvzRr9VXb6BbhkeNs)
