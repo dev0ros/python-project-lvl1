@@ -3,5 +3,5 @@
 <a href="https://codeclimate.com/github/dev0ros/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/cafb6b160635562a45a0/maintainability" /></a>
 
 
-brain-calc game:
-(<a href="https://asciinema.org/a/FpjcjQgxtvzRr9VXb6BbhkeNs" target="_blank"><img src="https://asciinema.org/a/FpjcjQgxtvzRr9VXb6BbhkeNs.svg" /></a>)
+## brain-calc game
+https://asciinema.org/a/FpjcjQgxtvzRr9VXb6BbhkeNs
